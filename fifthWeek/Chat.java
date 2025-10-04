@@ -7,11 +7,11 @@ public class Chat {
     private String name;
     private List<String> messages = new ArrayList<>();
 
-    void add(String msg) {
+    public void addMessage(String msg) {
         messages.add(msg);
     }
 
-    String name() {
+    public String getName() {
         return name;
     }
 }

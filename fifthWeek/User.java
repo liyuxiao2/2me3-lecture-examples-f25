@@ -1,9 +1,13 @@
 package fifthWeek;
 
 public class User {
-    public String username; 
+    private String username; 
 
-    String getUser() { 
+    public String getUser() { 
         return username;
+    }
+
+    public void sendMessage() { 
+        System.out.println("hello");
     }
 }

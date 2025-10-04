@@ -4,11 +4,11 @@ public class Message {
     private String content;
     private long timestamp;
 
-    public String text() {
+    public String getContent() {
         return content;
     }
 
-    private long getTimestamp() { 
+    public long getTimestamp() { 
         return timestamp;
     }
 }
