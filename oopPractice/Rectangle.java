@@ -13,6 +13,6 @@ class Rectangle extends Shape {
     // TODO: implementing the area method
     @Override
     public double area() {
-        return 0;
+        return length * width;
     }
 }
